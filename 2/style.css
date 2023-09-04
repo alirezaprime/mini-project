@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.lalezar{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    letter-spacing: 10px;
+    padding: 20px 0px;
+    
+}
+.header{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Serif:wght@700&family=Poppins:ital,wght@1,200&display=swap');
+.image{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 10px 15px 20px;
+}
+.but{
+    all: unset;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 15px 20px;
+    transition: all 0.5s;
+}
+.but:hover{
+    background-color: #fff;
+    color: rgba(21,48,119,255);
+}
+.row{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.pra{
+    padding: 10px 15px 20px;
+    text-align: justify;
+}
+.section1{
+    background: linear-gradient(to right, rgba(0,82,184,255), rgba(0,164,235,255)50% ,rgba(21,48,119,255)100%);
+}
+.c-font{
+    color: #fff;
+}
+.blue{
+    color: rgba(21,48,119,255);
+}
+.bold{
+    font-weight: bold;
+}
+.l-gray{
+    color: rgb(147, 141, 141);
+}
+.card{
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.m-bot{
+    margin-bottom: 25px;
+}
+.overf{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.row1{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.animation:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+.mamad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.p-but{
+    padding-bottom: 20px;
+}
+.mm{
+    margin: 10px;
+}
